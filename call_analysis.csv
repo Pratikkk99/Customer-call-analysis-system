@@ -1,0 +1,25 @@
+Transcript,Summary,Sentiment
+"“Hi, I was trying to book a slot yesterday but the payment failed…”
+",Error parsing response,Unknown
+"i tried calling you , hy didnt you answer?",Error parsing response,Unknown
+i tried calling you,Error: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions,Unknown
+"{
+  ""model"": ""mixtral-8x7b-32768"",
+  ""messages"": [
+    {""role"": ""system"", ""content"": ""You are a helpful assistant.""},
+    {""role"": ""user"", ""content"": ""Hello!""}
+  ]
+}
+",Error: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions,Unknown
+"hiiii pick up call
+",Error: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions,Unknown
+hii,The customer initiated contact but provided no further information or details during the call.  The call was extremely brief and lacked any substantive content.  No issue or request was communicated.,"Neutral.  The single word ""hii"" doesn't express a positive or negative sentiment."
+"hii , tried calling , hy didnt you anser you idiot",The customer expressed anger at not receiving a call back.  They used offensive language to convey their frustration.  The core issue is a missed call and the customer's subsequent dissatisfaction.,Negative
+"hii , tried calling , hy didnt you anser you idiot",The customer called but was unable to reach the company.  The customer expressed anger and frustration at not receiving a call back.  The language used was aggressive and inappropriate.,Negative
+call back please,The customer requested a call back.  No further information was provided.,Neutral.  The request for a call back doesn't express positive or negative sentiment. It's simply a statement of need.
+call back please,The customer requested a call back.  No further information was provided.,"Neutral.  The phrase ""call back please"" is a request, not an expression of positive or negative sentiment."
+call back asap please,The customer requested an immediate return call.  No further details were provided regarding the reason for the call.,"Negative.  The phrase ""call back asap please"" implies urgency and suggests a problem that needs immediate attention.  This indicates dissatisfaction or a negative experience."
+call back asap please,The customer requested an immediate return call.  No further details were provided regarding the reason for their request.,"Negative.  The phrase ""call back asap please"" implies urgency and likely stems from a problem requiring immediate attention."
+"hello I tried contacting you , but it didnt connected well
+",The customer attempted to contact the company but experienced connection difficulties.  They were unable to reach the company via their previous attempt.  Further assistance or follow-up is likely needed.,"Negative.  The customer expresses frustration (""didn't connect well"") indicating a negative experience."
+"hello , tried  calling you but you didnt responded","The customer attempted to contact the company unsuccessfully via phone.  They are now reaching out through another method, likely to report an issue or inquiry.",Negative.  The customer expresses frustration at not receiving a response to their call.
